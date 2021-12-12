@@ -1,5 +1,5 @@
 # Nickocado_Au_Mcdo
-Vous incarnez Nick Avocado dans ce jeu "Pac-Man like" dans lequel vous devez manger tous les burgers présents en évitant un duo composé de Dwayne Johnson et The Rock! 
+Vous incarnez Nick Avocado dans ce jeu "Pac-Man like" dans lequel vous devez manger tous les burgers présents, en évitant un duo composé de Dwayne Johnson et The Rock! 
 Le jeu est codé à l'aide du module Pygame.
 
 -Utilisez les flèches directionnelles pour vous déplacer dans le labyrinthe. [Collision avec le labyrinthe à faire]
