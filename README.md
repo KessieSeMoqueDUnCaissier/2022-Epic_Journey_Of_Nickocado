@@ -4,7 +4,7 @@ Le jeu est codé à l'aide du module Pygame.
 
 -Utilisez les flèches directionnelles pour vous déplacer dans le labyrinthe. [Collision avec le labyrinthe à faire]
 
--Appuyez sur M pour écouter l'OST de Giorno dans Jojo's Bizarre Adventure (Grosse dédicace à Léo Gao) ['Il vento d'oro', Yugo Kanno]
+-Appuyez sur M pour écouter l'OST de Giorno dans Jojo's Bizarre Adventure (Grosse dédicace à Léo Gao) ['Il vento d'oro', de Yugo Kanno]
 
 -En buvant du coca, vous deviendrez invincible pendant quelques secondes! [A faire]
 
