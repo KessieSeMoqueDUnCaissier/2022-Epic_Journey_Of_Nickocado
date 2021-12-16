@@ -1,6 +1,5 @@
 import pygame  # necessaire pour charger les images et les sons
 import random
-import math
 
 class Maze: # creation du laby
     def __init__(self):
@@ -28,43 +27,23 @@ class Maze: # creation du laby
                      0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
                      0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
 
-    def draw(self,display_surf,image_surf):
+    def draw(self,screen,image_surf):
        bx = 0
        by = 0
        for i in range(0,self.M*self.N):
            if self.maze[ bx + (by*self.M) ] == 1:
-               display_surf.blit(image_surf,( bx * 40 , by * 40))
+               screen.blit(image_surf,( bx * 40 , by * 40))
            bx += 1
            if bx > self.M-1:
                bx = 0 
                by += 1
 
-    def draw2(self,display_surf,image_surf):
-       bx = 0
-       by = 0
-       for i in range(0,self.M*self.N):
-           if self.maze[ bx + (by*self.M) ] == 2:
-               display_surf.blit(image_surf,( bx * 40 , by * 41.2))
-           bx += 1
-           if bx > self.M-1:
-               bx = 0 
-               by += 1
                
-    def draw3(self,display_surf,image_surf):
-       bx = 0
-       by = 0
-       for i in range(0,self.M*self.N):
-           if self.maze[ bx + (by*self.M) ] == 3:
-               display_surf.blit(image_surf,( bx * 39.5 , by * 41))
-           bx += 1
-           if bx > self.M-1:
-               bx = 0 
-               by += 1  
 
 class Joueur() : # classe pour créer Nick Avocado
     def __init__(self) :
         self.font=font=pygame.font.Font("Projet Pac-man\Oswald.ttf",25)
-        self.image = pygame.image.load("Projet Pac-man\Images\-NickDroite.png")
+        self.image = pygame.image.load("Projet Pac-man\Images\-NickDroite.png").convert_alpha()
         self.sens = "O"
         self.vitesse = 1
         self.score=0
@@ -95,11 +74,40 @@ class Joueur() : # classe pour créer Nick Avocado
         score_text=self.font.render(f"Weight:{self.score}Kg",1,(255,255,255))
         screen.blit(score_text,(20,20))
 
-""""
+
 class Ennemi():
-"""
+    def __init__(self):
+        self.image = pygame.image.load("Projet Pac-man\Images\-Rock.png").convert_alpha()
+        self.rect = self.image.get_rect()
+        self.rect.x = 365
+        self.rect.y = 270
+        self.vitesse = 1
+        self.sens = random.randint(1,4)
+    NbEnnemis=2
+
+    def deplacer(self) :
+        if (self.sens == 1) and (self.rect.x < 723):
+            self.rect.x += self.vitesse
+        elif (self.sens == 2) and (self.rect.x > 45):
+           self.rect.x -= self.vitesse
+        elif (self.sens == 3) and (self.rect.y > 123):
+            self.rect.y -= self.vitesse
+        elif (self.sens == 4) and (self.rect.y < 514):
+            self.rect.y += self.vitesse
+
+    def disparaitre(self):
+        self.image = pygame.image.load("Projet Pac-man\Images\-Rock.png")
+        self.rect = self.image.get_rect()
+        self.rect.x = 350
+        self.rect.y = 300
+        self.vitesse = 1
+        self.sens = random.randint(1,4)
+
 
 """
 class Burger():
 """
-    
+
+"""    
+class Coca():
+"""
