@@ -8,5 +8,6 @@ Le jeu est codé à l'aide du module Pygame.
 
 -En buvant du coca, vous deviendrez invincible pendant quelques secondes! [A faire]
 
--Vous avez une barre de vie, celle-ci est drainée si l'un des membres du duo vous touche! [Barre de vie faite, ennemis à instancier]
+-Vous avez une barre de vie, celle-ci est drainée si l'un des membres du duo vous touche! [Barre de vie faite, déplacement des ennemis à faire]
 
+Classes: Joueur(marquer, vie, deplacer, toucher, game_over ...)  / Labyrinthe(dessinner) / Ennemi(toucher, apparaitre, disparaitre) / Burgers(apparaitre, disparaitre) / Coca (apparaitre, disparaitre, ...)
