@@ -111,7 +111,7 @@ class Ennemi():
         self.rect.y = 270
         self.vitesseX=1
         self.vitesseY=1
-    NbEnnemis=1
+    NbEnnemis=2
 
     def disparaitre(self):
 
