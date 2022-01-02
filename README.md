@@ -8,6 +8,7 @@ Le jeu est codé à l'aide du module Pygame.
 
 -Vous avez une barre de vie, celle-ci est drainée si l'un des membres du duo vous touche!
 
+![nick-avocado](https://user-images.githubusercontent.com/90514084/147881522-6fbdb23b-baca-45f4-9dac-cb70177a75a4.gif)
 
 
 ## Découpage en fonction et en classes:
