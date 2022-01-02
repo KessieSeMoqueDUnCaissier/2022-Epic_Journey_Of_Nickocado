@@ -1,4 +1,4 @@
-###13/12/2021
+13/12/2021
 
   Début du projet "The Epic Journey of Nickocado"
   Création de la classe Joueur avec toutes les méthodes qui vont avec.
@@ -6,19 +6,19 @@
   Mise en place de la musique de jeu et des sons
   
  
-###15/12/2021 
+15/12/2021 
 
   Mise en place de la collision joueur/ennemi, qui conduit à la perte d'une vie.
   Création du labyrinthe
   Collision des murs du labyrinthe avec le joueur ou l'ennemi
   
-###18/12/2021
+18/12/2021
 
   Collision des murs du labyrinthe avec le joueur ou l'ennemi
   Dessin des burgers et des cocas dans le labyrinthe
   Mise en place d'un système de Game Over
     
-###27/12/2021
+27/12/2021
 
   Collision des murs du labyrinthe avec le joueur ou l'ennemi 
       (Solution: Prendre en compte les positions du joueur/Ennemi et voir si chaque élément de la liste entre en collision avec ces derniers. 
@@ -27,7 +27,7 @@
       (Solution: Affecter l'ancienne position dans la boucle de jeu afin qu'elle s'actualise en temps réel)
   Problèmes de hitbox à régler: l'ennemi se téléporte derrière les murs 
       
-###28/12/2021
+28/12/2021
 
   Collision avec les burgers, et les cocas
     (Solution: Fonction collision prenant en compte la position du joueur dans le niveau et crée un rectangle sur ce dernier.
@@ -41,7 +41,7 @@
   Image de l'ennemi changeant en fonction du coca (pour savoir si le joueur est toujours invincible
   Ajout des points si les ennemis meurent 
   
-###01/01/2022 
+01/01/2022 
 
   Disparition du burger ou coca lorsque consommé
   Reprise du Game Over:
@@ -51,7 +51,7 @@
       Solution: Mettre sa vitesse à 0 si sa vie est à 0 ou moins (en cas où 2 ennemis touchent le joueur lorsqu'il a une vie)
     Affiche le record de jeu
  
-###02/01/2022
+02/01/2022
 
   Disparition du burger ou coca lorsque consommé
   Game Over:
