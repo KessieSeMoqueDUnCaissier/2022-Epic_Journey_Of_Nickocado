@@ -8,11 +8,13 @@ Le jeu est codé à l'aide du module Pygame.
 
 -Vous avez une barre de vie, celle-ci est drainée si l'un des membres du duo vous touche!
 
-**Découpage en fonction et en classes:**
 
-  __Fonctions:__
+
+## Découpage en fonction et en classes:
+
+  ### Fonctions:
   
-  *Labyrinthe:*
+*Labyrinthe:*
   
   def dessiner_niveau(surface, niveau):
   
@@ -46,7 +48,7 @@ Le jeu est codé à l'aide du module Pygame.
     On passe également en argument les vitesses `vx` et `vy`.
     La fonction retourne la position modifiée pour new_pos ainsi que les vitesses modifiées selon les éventuelles collisions.
     
- *Burgers* 
+*Burgers:* 
  
  def dessiner_burger(surface, niveau, pain): 
     
@@ -64,11 +66,11 @@ Le jeu est codé à l'aide du module Pygame.
       Parcourt la liste renvoyée par get_neighbour_block2 et vérifie si chaque élément de la liste rentre en collision avec le rectangle du joueur.
       Renvoie alors True en cas de collision et False dans le cas contraire.
       
-  *Cocas*
+*Cocas:*
   
   Même fonctions désignées pour les burgers excepté pour get_neighbour_blocks, prenant uniquement les cases de valeur 3.
 
-__Classes__
+### Classes:
 
   class Joueur() : # classe pour créer Nick Avocado
   
