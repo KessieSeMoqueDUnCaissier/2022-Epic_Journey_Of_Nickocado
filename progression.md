@@ -38,6 +38,7 @@
       Solution: Prendre en compte les positions du joueur/ennemi et 
                 voir si chaque élément de la liste entre en collision avec ces derniers. 
                 Si collision, le joueur/ennemi bloque et se retrouve à sa position initiale.
+                (FORUM)
        
   -Problèmes de hitbox à régler: le joueur se téléporte derrière les murs: ✅
   
