@@ -43,7 +43,7 @@
   
       Solution: Affecter l'ancienne position dans la boucle de jeu afin qu'elle s'actualise en temps réel
       
-  -Problèmes de hitbox à régler: l'ennemi se téléporte derrière les murs ⭕
+  -Problèmes de hitbox à régler: l'ennemi se téléporte parfois derrière les murs ⭕
      
      
 ### 28/12/2021
@@ -66,6 +66,8 @@
   
   -Ajout des points si les ennemis meurent ✅
   
+  -Problèmes de hitbox à régler: l'ennemi se téléporte parfois derrière les murs ⭕
+  
   
 ### 01/01/2022 
 
@@ -81,10 +83,14 @@
       
     Affiche le record de jeu
  
+ -Problèmes de hitbox à régler: l'ennemi se téléporte parfois derrière les murs ⭕
+ 
  
 ### 02/01/2022
 
   -Disparition du burger ou coca lorsque consommé ⭕
+  
+  -Problèmes de hitbox à régler: l'ennemi se téléporte parfois derrière les murs ⭕
   
   -Game Over: ✅
   
