@@ -98,3 +98,8 @@
     Afficher le record --> création d'un fichier .txt dans lequel on place le score du joueur si le fichier est vide; 
                             sinon si le contenu du fichier str (converti en int) est inférieur au score actuel, 
                             le contenu se voit remplacer par le score actuel, et ainsi de suite...
+                            
+### 07/01/2022
+    
+  -Disparition du burger ou coca lorsque consommé ✅
+  -Réapparition des produits consommés si le joueur est en vie et qu'il les a tous consommés (ou pas dans le cas du coca) ✅
