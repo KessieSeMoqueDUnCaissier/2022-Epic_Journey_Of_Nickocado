@@ -102,4 +102,5 @@
 ### 07/01/2022
     
   -Disparition du burger ou coca lorsque consommé ✅
+  
   -Réapparition des produits consommés si le joueur est en vie et qu'il les a tous consommés (ou pas dans le cas du coca) ✅
